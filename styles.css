@@ -442,7 +442,7 @@ a.menu {
     }
 }
 
-/* Cards for People */
+/* Cards for Tiers */
 .card {
     box-shadow: 0 4px 8px 0;
     transition: 0.3s;
@@ -455,7 +455,8 @@ a.menu {
     flex-grow: 1;
     flex-wrap: wrap;
     justify-content: space-evenly;
-  }
+}
+
 /* Card Colors */
 .mint {
     background-color: var(--magic-mint);
