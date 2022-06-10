@@ -105,16 +105,16 @@ header {
 
 .link-styling {
     padding: 0.2%;
-    color: var(--rich-black);
+    /* color: var(--rich-black); */
 }
 
 .link-styling a:link {
-    color: var(--rich-black);
+    /* color: var(--rich-black); */
     text-decoration: none;
 }
 
 .link-styling a:visited {
-    color: var(--dark-cyan);
+    /* color: var(--dark-cyan); */
     text-decoration: none;
 }
 
