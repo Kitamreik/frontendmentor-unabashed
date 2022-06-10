@@ -2,117 +2,202 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Crowdfunding product page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/032df15d1f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <!-- <script defer src="public/js/scripts.js"></script> -->
 </head>
 <body>
-  About
-  Discover
-  Get Started
+  <title> Crowdfunding product page</title>
+  <header class="content-container-2 side-scroll-mobile">
+  <div class="header-wrapper">
+      <div class="link-styling content-container-2 side-scroll-mobile">
+        <!-- <a href="#"><img src="images/image-hero-desktop.jpg" alt="the bottom half of a monitor and a desktop display is here"></a> -->
+        <!-- <a href="#"><img src="./images/handz.jpeg" alt="a person's hands are behind their back tied up with several knots and another person's hand is reinforcing the knots"></a> -->
+        <a href="#"><img src="./images/handz-2.webp" alt="a person's hands are behind their back tied up with several knots and another person's hand is reinforcing the knots"></a>
+      </div>
+      <nav class="nav-bar link-styling open-sesame">
+        <!-- replace with nav if not working -->
+        <ul class="nav-bar-list center-text-line-items">
+          <li><a href="https://www.facebook.com/UnabashedQueerKinkCon/">About</a></li>
+          <li><a href="https://www.instagram.com/unabashedcon/">Discover</a></li>
+          <li><a href="https://fetlife.com/users/sign_in">Get Started</a></li>
+        </ul>
+      </nav>
+    <div class = "link-styling mobile-container">
+      <button class = "hamburger">
+          <a href="javascript:void(0);" class="menu" for="open-sesame">
+              <i class="fa fa-bars"></i>
+          </a>
+      </button> 
+    </div>
+  </div>
+  </header>
+<div class="content-container-2 side-scroll-mobile">
+  <section>
+    <!-- Section -->
+    <!-- <h1>Mastercraft Bamboo Monitor Riser</h1> -->
+    <h1>Unabashed Con Ticketing Platform</h1>
+    <br>
+    <!-- <p>A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p> -->
+    <p>A beautiful & handcrafted website for cuties, queers and all the hotties to use!</p>
+  </section>
+  <br>
+  <section>
+    <button class="btn link-styling">
+      <a href="https://www.unabashedcon.com/stayintouch" role ="button">Back this project</a>
+    </button>
+    <button class="btn link-styling">
+      <a href="https://www.unabashedcon.com" role="button" >Bookmark</a>
+    </button>
+  </section>
+  <br>
+  <section class="content-container-2 side-scroll-mobile">
+    <div class="card expansion line cosmic-latte">
+      <!-- data for tracking the metrics -->
+      <span>
+        <i class="fa-solid fa-money-bill-1-wave"></i>
+        <p>Help us reach our goals! We appreciate all the support!</p>
+        <p>$89,914 of $100,000 backed</p>
+        <p>5,007 total backers</p>
+        <p>56 days left </p>
+      </span>
+    <!-- Progress bar -->
+    </div>
+  </section>
+  <br>
+  <section class="content-container-3 medium-champagne line">
+    <!-- Section -->
+  <h2>About this project</h2>
+  <!-- <p>
+    The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
+    to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
+    your posture and make you more comfortable while at work, helping you stay focused on the task at hand.
+  </p> -->
+  <p>
+    The Unabashed Queer Kink Con is a radically designed and facilitated experience for all, which elevates whatever kink cons you've been to, to another level that is brave and bold.
+  </p>
+  <!-- <p>
+    Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
+    to allow notepads, pens, and USB sticks to be stored under the stand.
+  </p> -->
+  <p>
+    Featuring artisan craftsmanship, the simplicity of design creates the room to authentically be one's self and grow in gentle and tender community is an experience you won't forget; rather, you'll remember for years to come! :]
+  </p>
+  </section>
+  <br>
+  <!-- container -->
+  <section class="content-container-2 side-scroll-mobile orchid-crayola">
+    <h3>Cutie Bean Member Tier</h3> 
+    <p>Pledge $25 or more</p>
+    <p>You get an unabashedcon demin jacket sew-on! You've helped us launch our promotional campaign, and 
+    you’ll be added to a special Backer member list.</p>
+    <p class="expansion">101 left</p>
+    <button class="btn">
+      Select Reward
+    </button>
+  </section>
+  <br>
+  <!-- container -->
+  <section class="content-container-2 side-scroll-mobile medium-purple">
+    <h3>Hawt Damn, You Sexy Member Tier</h3>
+    <p>Pledge $75 or more</p>
+    <p>You get a Black Special Edition unabashedcon hat and a personal thank you card. You’ll be added to our Silver Studded Backer 
+    member list. Shipping is included.</p>
+    <p class="expansion">64 left</p>
+    <button class="btn">
+      Select Reward
+    </button>
+  </section>
+  <br>
+  <!-- container -->
+  <section class="content-container-2 side-scroll-mobile hot-pink line">
+    <h3>Cosmically Motherfuckin Delicious Member Tier</h3>
+    <p> Pledge $200 or more</p>
+    <p>You get two Special Edition unabashedcon tickets for a discounted class at Studio Friction, an unabashedcon T-Shirt, and a personal thank you card. You’ll be added 
+    to our Golden Shimmering Backer member list. Shipping is included.</p>
+    <p class="expansion">0 left</p>
+    <button class="btn-out-of-stock">
+      Out of Stock
+    </button>
+    <br>
+  </section>
+  <br>
+  <section class= "content-container-2 side-scroll-mobile">
+    <div class="card vivid-sky-blue">
+      <!-- venmo embedding -->
+    <p>If you would like to contribute to our Venmo:
+      <button class="btn-pay-links link-styling">
+        <a href="venmo.com" role="button" >Venmo</a>
+      </button>
+    </p>
+    </div>
+  </section>
+  <section class= "content-container-2 side-scroll-mobile">
+    <div class="card light-steel-blue">
+      <!-- cashapp embedding -->
+    <p>If you would like to contribute to our Cashapp:
+      <button class="btn-pay-links link-styling">
+        <a href="cashapp.com" role="button" >Cashapp</a>
+      </button>
+    </p>
+    </div>
+  </section>
+  <section class= "content-container-2 side-scroll-mobile">
+    <div class="card medium-purple">
+      <!-- paypal embedding -->
+    <p>If you would like to contribute to our Paypal:
+      <button class="btn-pay-links link-styling">
+        <a href="paypal.com" role="button" >Paypal</a>
+      </button>
+    </p>
+    </div>
+  </section>
 
-  Mastercraft Bamboo Monitor Riser
-  A beautiful & handcrafted monitor stand to reduce neck and eye strain.
+<!-- Front End Mentor - see documentation here: https://docs.google.com/document/d/11vJdYK27mBCviBqBGVZ24wXedy_QWvS5Dc_Z6-cizRU/edit?usp=sharing -->
 
-  Back this project
-  Bookmark
-
-  $89,914 of $100,000 backed
-  5,007 total backers
-  56 days left
-
-  About this project
-
-  The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen 
-  to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve 
-  your posture and make you more comfortable while at work, helping you stay focused on the task at hand.
-
-  Featuring artisan craftsmanship, the simplicity of design creates extra desk space below your computer 
-  to allow notepads, pens, and USB sticks to be stored under the stand.
-  
-  Bamboo Stand
-  Pledge $25 or more
-  You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and 
-  you’ll be added to a special Backer member list.
-  101 left
-  Select Reward
-
-  Black Edition Stand
-  Pledge $75 or more
-  You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer 
-  member list. Shipping is included.
-  64 left
-  Select Reward
-
-  Mahogany Special Edition
-  Pledge $200 or more
-  You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added 
-  to our Backer member list. Shipping is included.
-  0 left
-  Out of Stock
-
-  <!-- Selection modal start -->
-
-  Back this project
-  Want to support us in bringing Mastercraft Bamboo Monitor Riser out in the world?
-
-  Pledge with no reward
-  Choose to support us without a reward if you simply believe in our project. As a backer, 
-  you will be signed up to receive product updates via email.
-
-  Bamboo Stand
-  Pledge $25 or more
-  You get an ergonomic stand made of natural bamboo. You've helped us launch our promotional campaign, and
-  you’ll be added to a special Backer member list.
-  101 left
-
-  <!-- Selected pledge start -->
-  Enter your pledge
-  $25
-  Continue
-  <!-- Selected pledge end -->
-
-  Black Edition Stand
-  Pledge $75 or more
-  You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer
-  member list. Shipping is included.
-  64 left
-
-  <!-- Selected pledge start -->
-  Enter your pledge
-  $75
-  Continue
-  <!-- Selected pledge end -->
-
-  Mahogany Special Edition
-  Pledge $200 or more
-  You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added
-  to our Backer member list. Shipping is included.
-  0 left
-
-  <!-- Selected pledge  start -->
-  Enter your pledge
-  $200
-  Continue
-  <!-- Selected pledge end -->
-
-  <!-- Selection modal end -->
-
-  <!-- Success modal start -->
-
-  Thanks for your support!
-  Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
-  an email once our campaign is completed.
-  Got it!
-
-  <!-- Success modal end -->
+</div>
+<footer class = "footer link-styling-footer"> 
+  <section class = "bottom-row"> 
+    <div class = "border"> 
+    <div class="link-styling-footer">
+      <h2 class = "mini-container">Developer Contact Info</h2>
+      <ul class="center-text-line-items">
+        <li><a href="https://github.com/Kitamreik">
+            <i class="fa-brands fa-github-alt"></i>
+        </a></li>
+        <li><a href="https://www.instagram.com/millennialmadhatteroftime/">
+            <i class="fa-brands fa-instagram-square"></i>
+        </a></li>
+        <li><a href="https://www.linkedin.com/in/kit-amreik/">
+            <i class="fa-brands fa-linkedin"></i>
+        </a></li>
+        <li>Developer: Kit Fenrir Amreik (they/she)</li>
+        <li>Email: kitdamreik@gmail.com</li>
+    </ul>
+    </div>
+    <div class="link-styling">
+      <h2 class = "mini-container">Call to Action</h2>
+          <div class="center-text-line-items">
+              <a href="https://linktr.ee/millennialmadhatteroftime">Donate Here</a>
+              <br>
+              <br>
+              <a href="https://bit.ly/kit-tj-services">Collaborate & Capacity Build</a>
+              <br>
+              <br>
+              <a href="https://forms.gle/EudpBs4ijHbRsWfr9">Book a Practitioner</a>
+          </div>
+          <br>
+          <br>
+          <div>
+            Copyright &copy; UnabashedQueerKinkCon 2022. All rights reserved.
+          </div>
+    </div>
+  </section>
+</footer>  
 </body>
 </html>
