@@ -68,12 +68,35 @@
       </span>
     <!-- Progress bar -->
     <br>
-    <span class="content-container-2 side-scroll-mobile">
-      <label for="file">Current Donor Progress:</label>
-    <progress id="file" value="85" max="100"> 32% </progress>
-    </span>
+      <span class="content-container-2 side-scroll-mobile">
+        <label for="file">Current Donor Progress:</label>
+      <progress id="file" value="85" max="100"> 32% </progress>
+      </span>
+    <!-- eventbrite dummy button embedding -->
+      <!-- eventbrite dummy button embedding -->
+        <!-- Noscript content for added SEO -->
+        <noscript><a href="https://www.eventbrite.com/e/uc-dummy-data-tickets-363353709727" rel="noopener noreferrer" target="_blank">Buy Tickets on Eventbrite</a></noscript>
+        <!-- You can customize this button any way you like -->
+        <button class="btn" id="eventbrite-widget-modal-trigger-363353709727" type="button">Buy Tickets</button>
+
+        <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+        <script type="text/javascript">
+            var exampleCallback = function() {
+                console.log('Order complete!');
+            };
+
+            window.EBWidgets.createWidget({
+                widgetType: 'checkout',
+                eventId: '363353709727',
+                modal: true,
+                modalTriggerElementId: 'eventbrite-widget-modal-trigger-363353709727',
+                onOrderComplete: exampleCallback
+            });
+        </script>
     </div>
   </section>
+    <br>
   <br>
   <section class="content-container-3 medium-champagne line">
     <!-- Section -->
